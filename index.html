@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Formulario de contacto</h1>
+    <form action="https://formspree.io/f/moqzppze" method="POST">
+    <input type="text" name="names" placeholder="Nombres" autocomplete="off" required>
+    <input type="text" name="last-names" placeholder="Apellidos" autocomplete="off" required>
+    <input type="email" name="email" placeholder="Correo electrónico" autocomplete="off" required>
+    <input type="telefono" name="telefono" placeholder="Número celular (opcional)" autocomplete="off">
+    <textarea rows="5" cols="60" name="message" placeholder="Introducir texto" autocomplete="off" required></textarea>
+    <button type="submit">Enviar un mensaje</button>
+    </form>
+    
+</body>
+
+</html>
